@@ -1,0 +1,8 @@
+uuid: 4b84ecc7-fcbd-4322-9cfd-dd743601ddbd
+langcode: en
+status: true
+dependencies: {  }
+name: Coverage
+vid: coverage
+description: 'Coverages for Insurance Type.'
+weight: 0

@@ -1,0 +1,14 @@
+uuid: 9d031f89-9ecb-422c-9168-e1e63a271005
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.vehicle_type
+id: taxonomy_vocabulary_vehicle_type
+entity_type_id: taxonomy_vocabulary
+entity_id: vehicle_type
+action: page_not_found
+allow_override: 1
+redirect: ''
+redirect_code: 301
+redirect_fallback_action: access_denied

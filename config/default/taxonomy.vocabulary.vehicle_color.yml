@@ -1,0 +1,8 @@
+uuid: d5626938-f01b-435d-b8fd-120f48244847
+langcode: en
+status: true
+dependencies: {  }
+name: 'Vehicle Color'
+vid: vehicle_color
+description: ''
+weight: 0

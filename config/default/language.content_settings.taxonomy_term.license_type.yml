@@ -1,0 +1,16 @@
+uuid: a2acf458-c9af-49fd-a40d-2d08e2314fca
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.license_type
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: taxonomy_term.license_type
+target_entity_type_id: taxonomy_term
+target_bundle: license_type
+default_langcode: site_default
+language_alterable: false

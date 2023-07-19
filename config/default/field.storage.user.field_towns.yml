@@ -1,0 +1,19 @@
+uuid: 85a59e1d-f702-46fe-a336-95dbfe61b440
+langcode: en
+status: true
+dependencies:
+  module:
+    - text
+    - user
+id: user.field_towns
+field_name: field_towns
+entity_type: user
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

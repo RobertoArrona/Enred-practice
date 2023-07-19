@@ -1,0 +1,14 @@
+uuid: 91ddbaa3-1e09-4eb3-ab3c-9d6bc1daa2bb
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.vehicle_color
+id: taxonomy_vocabulary_vehicle_color
+entity_type_id: taxonomy_vocabulary
+entity_id: vehicle_color
+action: page_not_found
+allow_override: 1
+redirect: ''
+redirect_code: 301
+redirect_fallback_action: access_denied

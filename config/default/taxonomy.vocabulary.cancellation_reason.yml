@@ -1,0 +1,8 @@
+uuid: f5cd9bf3-8a94-4bcb-8cca-f0ce18ca0720
+langcode: en
+status: true
+dependencies: {  }
+name: 'Cancellation Reason'
+vid: cancellation_reason
+description: ''
+weight: 0

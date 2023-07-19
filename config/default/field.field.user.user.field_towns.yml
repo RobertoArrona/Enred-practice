@@ -1,0 +1,28 @@
+uuid: 3a0d7577-d9c8-4fb9-b670-6760006bd382
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_towns
+    - filter.format.plain_text
+  module:
+    - allowed_formats
+    - text
+    - user
+third_party_settings:
+  allowed_formats:
+    allowed_formats: {  }
+id: user.user.field_towns
+field_name: field_towns
+entity_type: user
+bundle: user
+label: Towns
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - plain_text
+field_type: text_long

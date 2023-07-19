@@ -1,0 +1,14 @@
+uuid: 8aed11b6-4e9a-4be4-895e-108cb7570d72
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.cancellation_reason
+id: taxonomy_vocabulary_cancellation_reason
+entity_type_id: taxonomy_vocabulary
+entity_id: cancellation_reason
+action: page_not_found
+allow_override: 1
+redirect: ''
+redirect_code: 301
+redirect_fallback_action: access_denied

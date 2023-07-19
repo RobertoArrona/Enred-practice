@@ -1,0 +1,8 @@
+uuid: 87df6efd-b249-4db0-a9ab-63e64421c818
+langcode: en
+status: true
+dependencies: {  }
+name: 'Vehicle Type'
+vid: vehicle_type
+description: ''
+weight: 0

@@ -1,0 +1,16 @@
+uuid: 0796c281-dd10-4606-9907-a7d19784e293
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.cancellation_reason
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: taxonomy_term.cancellation_reason
+target_entity_type_id: taxonomy_term
+target_bundle: cancellation_reason
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,8 @@
+uuid: bc2e482e-7a42-4132-8da8-1a721ca0ed05
+langcode: en
+status: true
+dependencies: {  }
+name: State
+vid: state
+description: ''
+weight: 0

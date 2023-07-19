@@ -1,0 +1,8 @@
+uuid: af0cac1b-b535-4126-8e65-58920af23762
+langcode: en
+status: true
+dependencies: {  }
+name: 'License Type'
+vid: license_type
+description: ''
+weight: 0

@@ -1,0 +1,16 @@
+uuid: fd804425-ac22-4885-9135-f03400d5a160
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.vehicle_sub_brand
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: taxonomy_term.vehicle_sub_brand
+target_entity_type_id: taxonomy_term
+target_bundle: vehicle_sub_brand
+default_langcode: site_default
+language_alterable: false

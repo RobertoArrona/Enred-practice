@@ -4,6 +4,14 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.user.moderation_dashboard
+    - field.field.user.user.field_address
+    - field.field.user.user.field_agent_code
+    - field.field.user.user.field_first_name
+    - field.field.user.user.field_last_name
+    - field.field.user.user.field_mobile_phone
+    - field.field.user.user.field_office_phone
+    - field.field.user.user.field_state
+    - field.field.user.user.field_towns
     - views.view.content_moderation_dashboard_in_review
     - views.view.moderation_dashboard_recent_changes
     - views.view.moderation_dashboard_recently_created
@@ -133,6 +141,14 @@ bundle: user
 mode: moderation_dashboard
 content: {  }
 hidden:
+  field_address: true
+  field_agent_code: true
+  field_first_name: true
+  field_last_name: true
+  field_mobile_phone: true
+  field_office_phone: true
+  field_state: true
+  field_towns: true
   langcode: true
   member_for: true
   search_api_excerpt: true

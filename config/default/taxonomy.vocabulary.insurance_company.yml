@@ -1,0 +1,8 @@
+uuid: 3f0648cb-fbd6-4b55-b46d-4c20bbfd3a34
+langcode: en
+status: true
+dependencies: {  }
+name: 'Insurance Company'
+vid: insurance_company
+description: ''
+weight: 0

@@ -1,0 +1,8 @@
+uuid: 534fb2dd-5743-4566-9412-65ca569e2e36
+langcode: en
+status: true
+dependencies: {  }
+name: 'Vehicle Description'
+vid: vehicle_description
+description: ''
+weight: 0

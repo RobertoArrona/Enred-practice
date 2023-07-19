@@ -1,0 +1,14 @@
+uuid: 44a25220-eb9a-45f7-8dd5-10c94bff49bf
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.car_body
+id: taxonomy_vocabulary_car_body
+entity_type_id: taxonomy_vocabulary
+entity_id: car_body
+action: page_not_found
+allow_override: 1
+redirect: ''
+redirect_code: 301
+redirect_fallback_action: access_denied

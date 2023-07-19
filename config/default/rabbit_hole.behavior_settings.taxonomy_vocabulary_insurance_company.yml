@@ -1,0 +1,14 @@
+uuid: 0af585c3-6d6c-4e12-824e-818750b3defe
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.insurance_company
+id: taxonomy_vocabulary_insurance_company
+entity_type_id: taxonomy_vocabulary
+entity_id: insurance_company
+action: page_not_found
+allow_override: 1
+redirect: ''
+redirect_code: 301
+redirect_fallback_action: access_denied

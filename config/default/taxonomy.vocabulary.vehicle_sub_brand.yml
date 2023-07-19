@@ -1,0 +1,8 @@
+uuid: b1688a34-cbf8-46bc-ac20-ba6da8438bbe
+langcode: en
+status: true
+dependencies: {  }
+name: 'Vehicle Sub Brand'
+vid: vehicle_sub_brand
+description: ''
+weight: 0

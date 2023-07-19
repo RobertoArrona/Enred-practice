@@ -1,0 +1,8 @@
+uuid: 7e69a24e-c5cb-4ada-b113-c69caa8ae8e4
+langcode: en
+status: true
+dependencies: {  }
+name: 'Car Body'
+vid: car_body
+description: ''
+weight: 0

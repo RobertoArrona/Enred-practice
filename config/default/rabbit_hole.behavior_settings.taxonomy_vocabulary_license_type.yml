@@ -1,0 +1,14 @@
+uuid: 13bf1b94-f133-4cc0-a677-cf086fc40de6
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.license_type
+id: taxonomy_vocabulary_license_type
+entity_type_id: taxonomy_vocabulary
+entity_id: license_type
+action: page_not_found
+allow_override: 1
+redirect: ''
+redirect_code: 301
+redirect_fallback_action: access_denied

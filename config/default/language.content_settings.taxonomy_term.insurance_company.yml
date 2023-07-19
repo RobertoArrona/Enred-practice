@@ -1,0 +1,16 @@
+uuid: 79ed6c72-054b-47c2-bf5e-b04ba2bccabc
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.insurance_company
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: taxonomy_term.insurance_company
+target_entity_type_id: taxonomy_term
+target_bundle: insurance_company
+default_langcode: site_default
+language_alterable: false

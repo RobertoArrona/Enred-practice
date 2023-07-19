@@ -1,0 +1,20 @@
+uuid: 255ac19c-bd62-457e-b76a-0db50a403ab1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_agent_code
+  module:
+    - user
+id: user.user.field_agent_code
+field_name: field_agent_code
+entity_type: user
+bundle: user
+label: Code
+description: 'Agent Code.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,16 @@
+uuid: 45f68340-0137-4863-88bd-281c2e0293b7
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.vehicle_color
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: taxonomy_term.vehicle_color
+target_entity_type_id: taxonomy_term
+target_bundle: vehicle_color
+default_langcode: site_default
+language_alterable: false

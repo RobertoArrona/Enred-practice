@@ -1,0 +1,16 @@
+uuid: 78073f37-633a-4e3e-bcd3-4e5a694b1e82
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.vehicle_description
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: taxonomy_term.vehicle_description
+target_entity_type_id: taxonomy_term
+target_bundle: vehicle_description
+default_langcode: site_default
+language_alterable: false

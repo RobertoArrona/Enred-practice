@@ -1,0 +1,14 @@
+uuid: d5ff9bbf-8a8b-42a9-931d-9d09066a0b48
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.vehicle_brand
+id: taxonomy_vocabulary_vehicle_brand
+entity_type_id: taxonomy_vocabulary
+entity_id: vehicle_brand
+action: page_not_found
+allow_override: 1
+redirect: ''
+redirect_code: 301
+redirect_fallback_action: access_denied
