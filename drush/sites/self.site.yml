@@ -1,0 +1,15 @@
+dev:
+  host: enredsis10.d4all.mx
+  user: d4all
+  root: /var/www/drupal/d10/enredsis10/dev/docroot
+  uri: 'https://enredsis10.d4all.mx'
+  paths:
+    drush-script: '/var/www/drupal/d10/enredsis10/dev/vendor/drush/drush/drush'
+
+test:
+  host: enredsis10-test.d4all.mx
+  user: d4all
+  root: /var/www/drupal/enredsis10/test/docroot
+  uri: 'https://enredsis10-test.d4all.mx'
+  paths:
+    drush-script: '/var/www/drupal/d10/enredsis10/test/vendor/drush/drush/drush'

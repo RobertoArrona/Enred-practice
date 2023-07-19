@@ -115,10 +115,10 @@ local.blt.yml
 # oauth keys
 oauth_keys/
 
-# env-file
-/.env*
 /.editorconfig
 /.gitattributes
 deployment_identifier
 /travis_wait*
 /files-private
+/dumps/*
+/logs/*
