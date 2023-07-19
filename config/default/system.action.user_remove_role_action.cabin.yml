@@ -1,0 +1,14 @@
+uuid: 20f000ee-ca7e-4d31-a522-d4fd681011d1
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.cabin
+  module:
+    - user
+id: user_remove_role_action.cabin
+label: 'Remove the Cabin role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: cabin

@@ -1,0 +1,14 @@
+uuid: a0b57b80-570f-4e04-97d6-5717bc33120b
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.workshop
+  module:
+    - user
+id: user_add_role_action.workshop
+label: 'Add the Workshop role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: workshop

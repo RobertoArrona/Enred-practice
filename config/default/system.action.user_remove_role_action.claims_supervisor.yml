@@ -1,0 +1,14 @@
+uuid: 4ae4a481-c7bd-4cd1-8e2d-e86631049196
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.claims_supervisor
+  module:
+    - user
+id: user_remove_role_action.claims_supervisor
+label: 'Remove the Claims Supervisor role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: claims_supervisor

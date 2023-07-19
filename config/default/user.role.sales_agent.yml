@@ -1,0 +1,9 @@
+uuid: 5ff9da11-8dc8-40b2-b55e-766774ee3680
+langcode: en
+status: true
+dependencies: {  }
+id: sales_agent
+label: 'Sales Agent'
+weight: 9
+is_admin: null
+permissions: {  }

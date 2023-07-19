@@ -1,0 +1,14 @@
+uuid: ebbcac7a-197d-42c8-8314-47c8d08cf0e2
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.sales_supervisor
+  module:
+    - user
+id: user_add_role_action.sales_supervisor
+label: 'Add the Sales Supervisor role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: sales_supervisor

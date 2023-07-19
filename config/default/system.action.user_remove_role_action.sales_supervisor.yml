@@ -1,0 +1,14 @@
+uuid: 533b3f2d-4de0-474a-84ec-ea035fdbad58
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.sales_supervisor
+  module:
+    - user
+id: user_remove_role_action.sales_supervisor
+label: 'Remove the Sales Supervisor role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: sales_supervisor

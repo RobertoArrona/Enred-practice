@@ -1,0 +1,9 @@
+uuid: 76fcaa1f-d78a-4140-92ac-19cadcc6526b
+langcode: en
+status: true
+dependencies: {  }
+id: sales_supervisor
+label: 'Sales Supervisor'
+weight: 11
+is_admin: null
+permissions: {  }

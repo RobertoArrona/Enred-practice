@@ -1,0 +1,14 @@
+uuid: c0c3e221-aed5-4231-9f12-c321f4e35a5c
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.sales_promoter
+  module:
+    - user
+id: user_remove_role_action.sales_promoter
+label: 'Remove the Sales Promoter role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: sales_promoter

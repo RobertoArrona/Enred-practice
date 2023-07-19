@@ -1,0 +1,14 @@
+uuid: 302a53e3-1e1a-4937-b21f-55bafb811d3e
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.adjuster
+  module:
+    - user
+id: user_remove_role_action.adjuster
+label: 'Remove the Adjuster role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: adjuster

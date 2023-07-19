@@ -1,0 +1,9 @@
+uuid: 509bc080-d684-47e2-8858-9c4df1ed97cb
+langcode: en
+status: true
+dependencies: {  }
+id: claims_supervisor
+label: 'Claims Supervisor'
+weight: 12
+is_admin: null
+permissions: {  }

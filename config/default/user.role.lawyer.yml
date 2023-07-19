@@ -1,0 +1,9 @@
+uuid: 51a0bd51-0013-4ea3-ad01-11780afc7e02
+langcode: en
+status: true
+dependencies: {  }
+id: lawyer
+label: Lawyer
+weight: 3
+is_admin: null
+permissions: {  }

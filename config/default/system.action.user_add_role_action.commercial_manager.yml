@@ -1,0 +1,14 @@
+uuid: ba679970-f16b-4a71-8cdb-5c1115c79b1a
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.commercial_manager
+  module:
+    - user
+id: user_add_role_action.commercial_manager
+label: 'Add the Commercial Manager role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: commercial_manager

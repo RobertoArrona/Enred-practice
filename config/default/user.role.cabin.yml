@@ -1,0 +1,9 @@
+uuid: caf9a8ac-89c9-4994-b8bb-d90b8ad6d05e
+langcode: en
+status: true
+dependencies: {  }
+id: cabin
+label: Cabin
+weight: 8
+is_admin: null
+permissions: {  }

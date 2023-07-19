@@ -1,0 +1,14 @@
+uuid: b06ef72e-5694-4883-9bb6-fdeddf590194
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.sales_promoter
+  module:
+    - user
+id: user_add_role_action.sales_promoter
+label: 'Add the Sales Promoter role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: sales_promoter

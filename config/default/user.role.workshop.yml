@@ -1,0 +1,9 @@
+uuid: 5b3cbace-50a9-469a-aa34-de5317e0a2c7
+langcode: en
+status: true
+dependencies: {  }
+id: workshop
+label: Workshop
+weight: 4
+is_admin: null
+permissions: {  }

@@ -1,0 +1,14 @@
+uuid: a458515c-7dc6-4529-babc-54e7cae785b7
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.adjuster
+  module:
+    - user
+id: user_add_role_action.adjuster
+label: 'Add the Adjuster role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: adjuster

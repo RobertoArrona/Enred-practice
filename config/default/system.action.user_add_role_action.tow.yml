@@ -1,0 +1,14 @@
+uuid: 4698bcab-8caf-4315-83bf-ca221be2ccde
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.tow
+  module:
+    - user
+id: user_add_role_action.tow
+label: 'Add the Tow role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: tow

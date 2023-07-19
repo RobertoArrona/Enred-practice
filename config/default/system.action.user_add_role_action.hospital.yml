@@ -1,0 +1,14 @@
+uuid: bf78287c-85fa-4cfc-9334-3be5f2518be8
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.hospital
+  module:
+    - user
+id: user_add_role_action.hospital
+label: 'Add the Hospital role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: hospital

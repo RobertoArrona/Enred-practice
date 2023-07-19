@@ -1,0 +1,9 @@
+uuid: 58133752-6252-4cd5-9219-743e8ab4b97e
+langcode: en
+status: true
+dependencies: {  }
+id: sales_promoter
+label: 'Sales Promoter'
+weight: 10
+is_admin: null
+permissions: {  }

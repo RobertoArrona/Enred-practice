@@ -1,0 +1,14 @@
+uuid: 3a516eb8-4fe1-451c-941b-55e93f545dbb
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.sales_agent
+  module:
+    - user
+id: user_remove_role_action.sales_agent
+label: 'Remove the Sales Agent role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: sales_agent

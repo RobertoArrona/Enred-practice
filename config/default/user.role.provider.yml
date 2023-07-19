@@ -1,0 +1,9 @@
+uuid: 61cd9e6e-acec-4612-ac57-aa9d91d93410
+langcode: en
+status: true
+dependencies: {  }
+id: provider
+label: Provider
+weight: 6
+is_admin: null
+permissions: {  }

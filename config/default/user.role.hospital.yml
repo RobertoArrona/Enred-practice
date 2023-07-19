@@ -1,0 +1,9 @@
+uuid: 07658651-a113-4b94-8091-d8bbf68144d8
+langcode: en
+status: true
+dependencies: {  }
+id: hospital
+label: Hospital
+weight: 7
+is_admin: null
+permissions: {  }

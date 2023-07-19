@@ -1,0 +1,14 @@
+uuid: e45a39ef-cd0c-483b-b8e5-84a0bf79635f
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.workshop
+  module:
+    - user
+id: user_remove_role_action.workshop
+label: 'Remove the Workshop role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: workshop

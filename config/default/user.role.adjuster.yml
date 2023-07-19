@@ -1,0 +1,9 @@
+uuid: 9189f726-ead8-4f14-9ddf-bb606f563f82
+langcode: en
+status: true
+dependencies: {  }
+id: adjuster
+label: Adjuster
+weight: 2
+is_admin: null
+permissions: {  }

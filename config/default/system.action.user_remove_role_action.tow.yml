@@ -1,0 +1,14 @@
+uuid: d854fd3a-56eb-47cf-beea-cc09c18978f0
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.tow
+  module:
+    - user
+id: user_remove_role_action.tow
+label: 'Remove the Tow role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: tow

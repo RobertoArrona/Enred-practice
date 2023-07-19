@@ -1,0 +1,14 @@
+uuid: 0d9b3b83-1df6-4b18-ad03-141a1342e9a5
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.hospital
+  module:
+    - user
+id: user_remove_role_action.hospital
+label: 'Remove the Hospital role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: hospital

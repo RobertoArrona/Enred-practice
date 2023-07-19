@@ -1,0 +1,14 @@
+uuid: 67dc1e75-886e-47dc-844a-9cadee321adb
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.lawyer
+  module:
+    - user
+id: user_remove_role_action.lawyer
+label: 'Remove the Lawyer role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: lawyer

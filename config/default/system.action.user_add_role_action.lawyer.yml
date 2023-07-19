@@ -1,0 +1,14 @@
+uuid: 4f5bdca0-bff7-4745-9c62-5b34b6ce31a7
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.lawyer
+  module:
+    - user
+id: user_add_role_action.lawyer
+label: 'Add the Lawyer role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: lawyer

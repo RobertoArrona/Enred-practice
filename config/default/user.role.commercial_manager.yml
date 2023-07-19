@@ -1,0 +1,9 @@
+uuid: 2f934b00-0ae2-4864-ba64-513da4e4ea41
+langcode: en
+status: true
+dependencies: {  }
+id: commercial_manager
+label: 'Commercial Manager'
+weight: 13
+is_admin: null
+permissions: {  }

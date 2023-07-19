@@ -1,0 +1,14 @@
+uuid: 55209ac3-5435-43d1-83d3-c8e0e06045ab
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.cabin
+  module:
+    - user
+id: user_add_role_action.cabin
+label: 'Add the Cabin role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: cabin
